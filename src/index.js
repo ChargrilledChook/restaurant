@@ -1,15 +1,15 @@
 import { createLanding } from "./js/landing"
 import { createMenu } from "./js/menu"
 import { createContact } from "./js/contact"
-// Create header + add event listners
+import { createHeader } from "./js/header"
+import { createFooter } from "./js/footer"
 
-// Create Footer
+const header = createHeader();
+const landing = createLanding();
+const footer = createFooter();
+const mainContent = document.querySelector("#content");
 
-// Load default module - home page
-
-const mainContent = document.querySelector(".dynamic-load");
-
-mainContent.append(createLanding());
+mainContent.append(header, landing, footer);
 
 const home = document.querySelector('#home')
 const menu = document.querySelector('#menu')
