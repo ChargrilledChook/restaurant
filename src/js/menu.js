@@ -13,7 +13,7 @@ function createMenu() {
   heading.textContent = 'How about chicken?'
   info.append(heading);
   const infoText = document.createElement('div');
-  infoText.textContent = 'chiiiiiiiiiiiiiiiiiiiiiiiicken'
+  infoText.textContent = test;
   info.append(infoText)
 
   container.append(imageContainer);

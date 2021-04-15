@@ -4,16 +4,16 @@ function createLanding() {
 
   const imageContainer = document.createElement('div')
   const img = document.createElement('img')
-  img.src = '../src/assets/burger-img.jpg'
+  img.src = imgPath;
   imageContainer.append(img);
 
   const info = document.createElement('div');
   info.classList.add('landing-info')
   const heading = document.createElement('h2')
-  heading.textContent = 'Do you love BORGER?'
+  heading.textContent = headingText;
   info.append(heading);
   const infoText = document.createElement('div');
-  infoText.textContent = 'Borger Borger Borger Borger Borger Borger Borger Borger Borger Borger Borger Borger Borger Borger Borger Borger Borger Borger'
+  infoText.textContent = infoTextText;
   info.append(infoText)
 
   container.append(imageContainer);
@@ -22,6 +22,8 @@ function createLanding() {
   return container;
 }
 
-const test = 'Test test test test test test'
+const headingText = 'Do you love BORGER?';
+const infoTextText = 'Borger Borger Borger Borger Borger Borger Borger Borger Borger Borger Borger Borger Borger Borger Borger Borger Borger Borger'
+const imgPath =  '../src/assets/burger-img.jpg';
 
 export { createLanding };
