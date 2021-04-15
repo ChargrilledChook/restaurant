@@ -53,6 +53,28 @@ body {
   max-width: 70rem;
 }
 
+/* Menu ----------------------------- */
+
+.menu-container {
+  padding: 10rem;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-ph {
+  border: 1px dashed black;
+  background-color: rgb(141, 110, 170);
+  width: 15rem;
+  height: 15rem;
+}
+
 .site-footer {
   padding: 2rem;
   background-color: #6670A5;
