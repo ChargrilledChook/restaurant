@@ -1,8 +1,6 @@
 import { createLanding } from "./js/landing"
 import { createMenu } from "./js/menu"
 import { createContact } from "./js/contact"
-import { createHeader } from "./js/header"
-import { createFooter } from "./js/footer"
 import { intialiseSite } from "./js/initialiseSite"
 
 intialiseSite();
