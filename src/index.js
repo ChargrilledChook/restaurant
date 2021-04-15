@@ -1,5 +1,6 @@
 import { createLanding } from "./js/landing"
 import { createMenu } from "./js/menu"
+import { createContact } from "./js/contact"
 // Create header + add event listners
 
 // Create Footer
@@ -26,4 +27,9 @@ home.addEventListener('click', ()=>{
 menu.addEventListener('click', ()=> {
   clearDom();
   mainContent.append(createMenu());
-})
+});
+
+contact.addEventListener('click', ()=> {
+  clearDom();
+  mainContent.append(createContact());
+});
