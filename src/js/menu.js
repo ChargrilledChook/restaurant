@@ -4,7 +4,7 @@ function createMenu() {
 
   const imageContainer = document.createElement('div')
   const img = document.createElement('img')
-  img.src = '../src/assets/burger-img.jpg'
+  img.src = imgPath;
   imageContainer.append(img);
 
   const info = document.createElement('div');
@@ -13,7 +13,7 @@ function createMenu() {
   heading.textContent = 'How about chicken?'
   info.append(heading);
   const infoText = document.createElement('div');
-  infoText.textContent = test;
+  infoText.textContent = placeholderText;
   info.append(infoText)
 
   container.append(imageContainer);
@@ -22,6 +22,6 @@ function createMenu() {
   return container;
 }
 
-const test = 'Test test test test test test'
-
+const imgPath = '../src/assets/burger2.png';
+const placeholderText = ' 🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔'
 export { createMenu };

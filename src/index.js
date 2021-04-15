@@ -10,7 +10,7 @@ const home = document.querySelector('#home')
 const menu = document.querySelector('#menu')
 const contact = document.querySelector('#contact')
 
-home.addEventListener('click', ()=>{
+home.addEventListener('click', ()=> {
   clearDom();
   mainContent.append(createLanding());
 });
@@ -27,4 +27,4 @@ contact.addEventListener('click', ()=> {
 
 function clearDom() {
   mainContent.innerHTML = '';
-}
+};
