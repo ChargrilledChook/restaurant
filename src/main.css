@@ -34,11 +34,11 @@ body {
   gap: 3rem;
 }
 
-.dynamic-load {
+.main {
   background-color: #91AAE1;
 }
 
-.dynamic-load > :first-child {
+.main > :first-child {
   width: 100%;
   height: 100%;
 }

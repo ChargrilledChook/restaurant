@@ -3,14 +3,11 @@ import { createMenu } from "./js/menu"
 import { createContact } from "./js/contact"
 import { createHeader } from "./js/header"
 import { createFooter } from "./js/footer"
+import { intialiseSite } from "./js/initialiseSite"
 
-const header = createHeader();
-const landing = createLanding();
-const footer = createFooter();
-const mainContent = document.querySelector("#content");
+intialiseSite();
 
-mainContent.append(header, landing, footer);
-
+const mainContent = document.querySelector('.main')
 const home = document.querySelector('#home')
 const menu = document.querySelector('#menu')
 const contact = document.querySelector('#contact')
