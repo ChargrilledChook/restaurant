@@ -1,7 +1,8 @@
 class menuItem {
   constructor(name, imageSrc) {
+    this.imgPath = '../src/assets/';
     this.name = name;
-    this.imageSrc = imageSrc;
+    this.imageSrc = this.imgPath + imageSrc;
   }
 
   get card() {

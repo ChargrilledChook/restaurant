@@ -30,6 +30,7 @@ function clearDom() {
   mainContent.innerHTML = '';
 };
 
-let test = new menuItem('Cool', '../src/assets/burger-img.jpg')
+let test = new menuItem('Coolio', 'burger-img.jpg')
+let test2 = new menuItem('Test', 'burger2.png')
 
-document.body.append(test.card)
+document.body.append(test.card, test2.card)
