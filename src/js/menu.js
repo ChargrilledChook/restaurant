@@ -4,14 +4,13 @@ function createMenu() {
   const container = document.createElement('div');
   container.classList.add('menu-container');
 
-  addProducts(container, products)
-  return container;
+  return addProducts(container, products);
 }
 
 function addProducts(container, products){
-  products.forEach(product => container.append(product))
+  products.forEach(product => container.append(product));
 
- return container
+ return container;
 }
 
 const product1 = new menuItem('Coolio', 'burger-img.jpg').card
