@@ -29,6 +29,17 @@ const product5 = new menuItem('Yeah yeah yeah', 'burger2.png').card
 const product6 = new menuItem('Test', 'burger2.png').card
 
 const products = [product1, product2, product3, product4, product5, product6]
-const imgPath = '../src/assets/burger2.png';
-const placeholderText = ' 🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔🐔'
+
+function createProducts(rawProducts) {
+  return rawProducts.map(product => new menuItem(...product).card)
+}
+
+const rawProductData = [
+  ['Coolio', 'burger-img.jpg'],
+  ['Bean burger', 'burger2.png'],
+  ['Borg', 'burger2.png'],
+  ['Noice', 'burger-img.jpg'],
+  ['Yeah yeah yeah', 'burger2.png'],
+  ['Sick m8', 'burger-img.jpg']
+]
 export { createMenu };
