@@ -21,17 +21,8 @@ function addProducts(container, products){
  return container;
 }
 
-const product1 = new menuItem('Coolio', 'burger-img.jpg').card
-const product2 = new menuItem('Test', 'burger2.png').card
-const product3 = new menuItem('Borg', 'burger2.png').card
-const product4 = new menuItem('Noice', 'burger2.png').card
-const product5 = new menuItem('Yeah yeah yeah', 'burger2.png').card
-const product6 = new menuItem('Test', 'burger2.png').card
-
-const products = [product1, product2, product3, product4, product5, product6]
-
 function createProducts(rawProducts) {
-  return rawProducts.map(product => new menuItem(...product).card)
+  return rawProducts.map(product => new menuItem(...product).card);
 }
 
 const rawProductData = [
@@ -40,6 +31,9 @@ const rawProductData = [
   ['Borg', 'burger2.png'],
   ['Noice', 'burger-img.jpg'],
   ['Yeah yeah yeah', 'burger2.png'],
-  ['Sick m8', 'burger-img.jpg']
-]
+  ['Sick m888', 'burger-img.jpg']
+];
+
+const products = createProducts(rawProductData)
+
 export { createMenu };
