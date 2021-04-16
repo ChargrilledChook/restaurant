@@ -2,9 +2,17 @@ import { menuItem } from './menuItem'
 
 function createMenu() {
   const container = document.createElement('div');
-  container.classList.add('menu-container');
+  container.classList.add('menu-container')
+  const title = document.createElement('h2');
+  title.textContent = 'Our Menu'
+  container.append(title)
 
-  return addProducts(container, products);
+  const menuGrid = document.createElement('div');
+  menuGrid.classList.add('menu-grid');
+
+  addProducts(menuGrid, products);
+  container.append(menuGrid)
+  return container;
 }
 
 function addProducts(container, products){

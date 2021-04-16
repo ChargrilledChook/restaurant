@@ -55,8 +55,12 @@ body {
 
 /* Menu ----------------------------- */
 
-.menu-container {
-  padding: 10rem;
+.menu-container h2 {
+  text-align: center;
+}
+
+.menu-grid {
+  padding: 0 8rem;
   display: grid;
   grid-gap: 5rem;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
