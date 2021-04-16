@@ -2,6 +2,7 @@ import { createLanding } from "./js/landing"
 import { createMenu } from "./js/menu"
 import { createContact } from "./js/contact"
 import { intialiseSite } from "./js/initialiseSite"
+import { menuItem } from "./js/menuItem"
 
 intialiseSite();
 
@@ -28,3 +29,7 @@ contact.addEventListener('click', ()=> {
 function clearDom() {
   mainContent.innerHTML = '';
 };
+
+let test = new menuItem('Cool', '../src/assets/burger-img.jpg')
+
+document.body.append(test.card)
