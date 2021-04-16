@@ -93,6 +93,12 @@ body {
   height: 100%;
 }
 
+/* Contact ----------------- */
+
+.contact-container {
+  display: grid;
+  place-items: center;
+}
 .site-footer {
   padding: 2rem;
   background-color: #6670A5;
