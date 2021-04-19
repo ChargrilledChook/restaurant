@@ -7,7 +7,7 @@ const imgPath = '../src/assets/'
 
 // Landing ======
 const landingTitle = 'BOOOOOOOOOOOOOORGER'
-const heroImage =  'burger-img.jpg';
+const heroImage =  'burgerVec.png';
 const landingImg = imgPath + heroImage;
 const landingCopy = ' BORGER borger BORGER borger BORGER borger BORGER borger BORGER borger BORGER borger'
 const landing = new Landing(landingTitle, landingImg, landingCopy);
