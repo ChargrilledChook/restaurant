@@ -96,8 +96,10 @@ body {
 /* Contact ----------------- */
 
 .contact-container {
-  display: grid;
-  place-items: center;
+  display: flex;
+  gap: 2rem;
+  padding: 4rem;
+  flex-direction: column;
 }
 
 .site-footer {
