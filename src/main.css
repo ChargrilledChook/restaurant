@@ -13,7 +13,7 @@ body {
   margin: 0;
   padding: 0;
   font-size: 3rem;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Libre Franklin', Arial, sans-serif;
 }
 
 a {
@@ -26,6 +26,11 @@ a:hover {
 }
 
 h2 {
+  font-family: 'Bangers', cursive;
+  font-size: 6rem;
+}
+
+h3 {
   font-family: 'Bangers', cursive;
 }
 
@@ -90,6 +95,10 @@ h2 {
 
 /* Menu ----------------------------- */
 
+/* .menu-container h2::before, .menu-container h2::after {
+  content: ' ----------------- ';
+} */
+
 .menu-container h2 {
   text-align: center;
 }
@@ -105,6 +114,7 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 2rem;
 }
 
 .product:hover {
@@ -114,6 +124,8 @@ h2 {
 
 .product h3 {
   margin: 0;
+  text-align: center;
+  font-family: 'Bangers';
 }
 
 .img-ph {
@@ -129,11 +141,12 @@ h2 {
 /* Contact ----------------- */
 
 .contact-container {
-  display: flex;
+  display: grid;
   gap: 2rem;
   padding: 4rem;
-  flex-direction: column;
 }
+
+
 
 .site-footer {
   font-family: 'ultra', serif;

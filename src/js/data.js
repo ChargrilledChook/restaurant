@@ -41,14 +41,16 @@ const testData = [
 ];
 
 const rawProductData = [
-  ['1', 'burg1.png'],
-  ['2', 'burg2.png'],
-  ['3', 'burg3.png'],
-  ['4', 'burg4.png'],
-  ['5', 'burg5.png'],
-  ['6', 'burg6.png'],
-  ['7', 'burg7.png'],
-  ['8', 'burg8.png'],
+  ["Don't call it the Shrimp Burger", 'burg1.png'],
+  ["Feeling Adventurous Burger", 'burg2.png'],
+  ["The Double Bypass Burger", 'burg3.png'],
+  ["Why Did It Cross the Road Burger", 'burg4.png'],
+  ["Doesn't Infringe on Copyright Burger", 'burg5.png'],
+  ["Much Felafel About Nothing Burger", 'burg6.png'],
+  ["Looks Familiar Burger", 'burg7.png'],
+  ["The Eldritch Horror Burger", 'burg8.png'],
+  ["Three's a Crowd Burger", 'burg9.png'],
+  ["Pile on the Poulet Burger", 'burg10.png']
 ]
 const menu = new Menu(rawProductData, imgPath);
 
