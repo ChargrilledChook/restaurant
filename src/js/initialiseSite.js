@@ -6,7 +6,6 @@ import { createFooter } from "./footer"
 function createMain() {
   const main = document.createElement('div');
   main.className = 'main';
-  main.append(landing.page);
   return main;
 }
 

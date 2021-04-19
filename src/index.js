@@ -1,26 +1,26 @@
-import { landing } from "./js/data"
-import { createMenu } from "./js/menu"
+import { landing, menu } from "./js/data"
 import { createContact } from "./js/contact"
 import { intialiseSite } from "./js/initialiseSite"
 
 intialiseSite();
 
 const mainContent = document.querySelector('.main')
-const home = document.querySelector('#home')
-const menu = document.querySelector('#menu')
-const contact = document.querySelector('#contact')
+const landingBtn = document.querySelector('#home')
+const menuBtn = document.querySelector('#menu')
+const contactBtn = document.querySelector('#contact')
+mainContent.append(landing.page);
 
-home.addEventListener('click', ()=> {
+landingBtn.addEventListener('click', ()=> {
   clearDom();
   mainContent.append(landing.page);
 });
 
-menu.addEventListener('click', ()=> {
+menuBtn.addEventListener('click', ()=> {
   clearDom();
-  mainContent.append(createMenu());
+  mainContent.append(menu.page);
 });
 
-contact.addEventListener('click', ()=> {
+contactBtn.addEventListener('click', ()=> {
   clearDom();
   mainContent.append(createContact());
 });
