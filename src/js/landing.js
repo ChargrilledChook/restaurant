@@ -1,5 +1,3 @@
-export { Landing };
-
 class Landing {
   constructor(title, imgPath, copy) {
     this.title = title;
@@ -37,3 +35,5 @@ class Landing {
     return container;
   }
 }
+
+export { Landing };
