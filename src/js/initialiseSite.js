@@ -1,7 +1,5 @@
-import { landing } from "./data"
 import { createHeader } from "./header"
 import { createFooter } from "./footer"
-
 
 function createMain() {
   const main = document.createElement('div');

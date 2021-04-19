@@ -1,5 +1,4 @@
-import { landing, menu } from "./js/data"
-import { createContact } from "./js/contact"
+import { landing, menu, contact } from "./js/data"
 import { intialiseSite } from "./js/initialiseSite"
 
 intialiseSite();
@@ -22,7 +21,7 @@ menuBtn.addEventListener('click', ()=> {
 
 contactBtn.addEventListener('click', ()=> {
   clearDom();
-  mainContent.append(createContact());
+  mainContent.append(contact.page);
 });
 
 function clearDom() {
