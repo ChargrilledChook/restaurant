@@ -7,7 +7,6 @@ const mainContent = document.querySelector('.main')
 const landingBtn = document.querySelector('#home')
 const menuBtn = document.querySelector('#menu')
 const contactBtn = document.querySelector('#contact')
-// mainContent.append(landing.page);
 
 landingBtn.addEventListener('click', ()=> {
   clearDom();

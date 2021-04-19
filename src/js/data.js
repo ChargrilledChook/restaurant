@@ -6,7 +6,7 @@ import { Contact } from './contact.js'
 const imgPath = '../src/assets/'
 
 // Landing ======
-const landingTitle = 'We all love BORGER!!'
+const landingTitle = 'BOOOOOOOOOOOOOORGER'
 const heroImage =  'burger-img.jpg';
 const landingImg = imgPath + heroImage;
 const landingCopy = ' BORGER borger BORGER borger BORGER borger BORGER borger BORGER borger BORGER borger'
