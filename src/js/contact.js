@@ -21,8 +21,9 @@ export class Contact {
     const email = this._createBasicElement('E-mail', this.mail);
     const address = this._createBasicElement('Address', this.address);
     const map = this._createMap(this.map);
+    address.append(map)
 
-    container.append(heading, phone, email, address, map);
+    container.append(heading, phone, email, address);
 
     return container;
   }
@@ -45,7 +46,7 @@ export class Contact {
     container.src = this.map;
     container.width = '600';
     container.height = '450';
-    container.loading = 'lazy';
+    // container.loading = 'lazy';
     container.style.border = '0';
 
     return container;

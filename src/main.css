@@ -144,8 +144,29 @@ h3 {
   display: grid;
   gap: 2rem;
   padding: 4rem;
+  grid-template-areas:
+  'header header'
+  'phone map'
+  'mail map'
+  'nil map'
+  ;
 }
 
+.contact-container > h2 {
+  grid-area: header;
+}
+
+.contact-container > :nth-child(2) {
+  grid-area: phone;
+}
+
+.contact-container > :nth-child(3) {
+  grid-area: mail;
+}
+
+.contact-container > :nth-child(4) {
+  grid-area: map;
+}
 
 
 .site-footer {
