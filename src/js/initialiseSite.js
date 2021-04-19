@@ -1,4 +1,4 @@
-import { createLanding } from "./landing"
+import { landing } from "./data"
 import { createHeader } from "./header"
 import { createFooter } from "./footer"
 
@@ -6,8 +6,8 @@ import { createFooter } from "./footer"
 function createMain() {
   const main = document.createElement('div');
   main.className = 'main';
-  const landing = createLanding();
-  main.append(landing);
+  // const landing = landing.page;
+  main.append(landing.page);
   return main;
 }
 

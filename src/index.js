@@ -1,4 +1,4 @@
-import { createLanding } from "./js/landing"
+import { landing } from "./js/data"
 import { createMenu } from "./js/menu"
 import { createContact } from "./js/contact"
 import { intialiseSite } from "./js/initialiseSite"
@@ -13,7 +13,7 @@ const contact = document.querySelector('#contact')
 
 home.addEventListener('click', ()=> {
   clearDom();
-  mainContent.append(createLanding());
+  mainContent.append(landing.page);
 });
 
 menu.addEventListener('click', ()=> {
