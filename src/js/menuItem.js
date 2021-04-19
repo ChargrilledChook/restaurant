@@ -1,4 +1,4 @@
-class menuItem {
+export class menuItem {
   constructor(name, imageSrc) {
     this.imgPath = '../src/assets/';
     this.name = name;
@@ -27,6 +27,4 @@ class menuItem {
 
     return container;
   }
-}
-
-export { menuItem }
+};

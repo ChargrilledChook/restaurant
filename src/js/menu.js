@@ -1,6 +1,6 @@
 import { menuItem } from './menuItem';
 
-class Menu {
+export class Menu {
   constructor(rawProducts) {
     this.rawProducts = rawProducts;
   }
@@ -36,5 +36,3 @@ class Menu {
     return this.rawProducts.map(product => new menuItem(...product).card);
   }
 }
-
-export { Menu };

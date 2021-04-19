@@ -1,4 +1,4 @@
-class Contact {
+export class Contact {
   constructor(phone, mail, address, map) {
     this.phone = phone;
     this.mail = mail;
@@ -50,6 +50,4 @@ class Contact {
 
     return container;
   }
-}
-
-export { Contact }
+};

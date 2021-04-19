@@ -1,4 +1,4 @@
-function createFooter(){
+export function createFooter(){
   const container = document.createElement('footer');
   container.classList.add('site-footer')
 
@@ -9,5 +9,3 @@ function createFooter(){
 }
 
 const author = 'By Chook';
-
-export { createFooter }
