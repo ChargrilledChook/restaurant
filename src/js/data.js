@@ -13,7 +13,7 @@ const landingCopy = "Lorem Ipsum is simply dummy text of the printing and typese
 const landing = new Landing(landingTitle, landingImg, landingCopy);
 
 // Menu =========
-const rawProductData = [
+const testData = [
   ['Classy borg', 'burger-img.jpg'],
   ['Sexy burger', 'burger2.png'],
   ['Borg', 'burger2.png'],
@@ -39,6 +39,17 @@ const rawProductData = [
   ['Yeah yeah yeah', 'burger2.png'],
   ['Sick m888', 'burger-img.jpg']
 ];
+
+const rawProductData = [
+  ['1', 'burg1.png'],
+  ['2', 'burg2.png'],
+  ['3', 'burg3.png'],
+  ['4', 'burg4.png'],
+  ['5', 'burg5.png'],
+  ['6', 'burg6.png'],
+  ['7', 'burg7.png'],
+  ['8', 'burg8.png'],
+]
 const menu = new Menu(rawProductData, imgPath);
 
 // Contact ======
