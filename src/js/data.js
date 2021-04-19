@@ -11,5 +11,6 @@ const landing = new Landing(landingTitle, landingImg, landingCopy);
 
 // Menu =========
 
+
 // Contact ======
 export { landing }

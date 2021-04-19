@@ -2,7 +2,6 @@ import { landing } from "./js/data"
 import { createMenu } from "./js/menu"
 import { createContact } from "./js/contact"
 import { intialiseSite } from "./js/initialiseSite"
-import { menuItem } from "./js/menuItem"
 
 intialiseSite();
 
