@@ -7,7 +7,8 @@ const imgPath = '../src/assets/'
 
 // Landing ======
 const landingTitle = 'We all love BORGER!!'
-const landingImg = imgPath + 'burger-img.jpg';
+const heroImage =  'burger-img.jpg';
+const landingImg = imgPath + heroImage;
 const landingCopy = ' BORGER borger BORGER borger BORGER borger BORGER borger BORGER borger BORGER borger'
 const landing = new Landing(landingTitle, landingImg, landingCopy);
 
@@ -38,7 +39,7 @@ const rawProductData = [
   ['Yeah yeah yeah', 'burger2.png'],
   ['Sick m888', 'burger-img.jpg']
 ];
-const menu = new Menu(rawProductData);
+const menu = new Menu(rawProductData, imgPath);
 
 // Contact ======
 

@@ -1,8 +1,9 @@
 import { menuItem } from './menuItem';
 
 export class Menu {
-  constructor(rawProducts) {
+  constructor(rawProducts, path) {
     this.rawProducts = rawProducts;
+    this.path = path;
   }
 
   get page() {
@@ -33,6 +34,6 @@ export class Menu {
   }
 
   _createProducts() {
-    return this.rawProducts.map(product => new menuItem(...product).card);
+    return this.rawProducts.map(product => new menuItem(...product, this.path).card);
   }
 }

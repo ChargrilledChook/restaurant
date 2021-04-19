@@ -1,6 +1,6 @@
 export class menuItem {
-  constructor(name, imageSrc) {
-    this.imgPath = '../src/assets/';
+  constructor(name, imageSrc, imgPath) {
+    this.imgPath = imgPath;
     this.name = name;
     this.imageSrc = this.imgPath + imageSrc;
   }
