@@ -14,6 +14,7 @@ export class Landing {
     container.classList.add('landing');
 
     const imageContainer = document.createElement('div')
+    imageContainer.classList.add('img-container');
     const img = document.createElement('img')
     img.src = this.imgPath;
     imageContainer.append(img);

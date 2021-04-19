@@ -7,15 +7,18 @@ export function createHeader(){
 
   const nav = document.createElement('nav');
 
-  const home = document.createElement('div');
+  const home = document.createElement('a');
+  home.href = '#';
   home.textContent = 'Home';
   home.id = 'home';
 
-  const menu = document.createElement('div');
+  const menu = document.createElement('a');
+  menu.href = '#';
   menu.textContent = 'Menu';
   menu.id = 'menu';
 
-  const contact = document.createElement('div');
+  const contact = document.createElement('a');
+  contact.href = '#';
   contact.textContent = 'Contact';
   contact.id = 'contact';
 
