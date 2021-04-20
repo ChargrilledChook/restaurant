@@ -1,7 +1,8 @@
 export class Contact {
-  constructor(phone, mail, address, map) {
+  constructor(phone, mail, hours, address, map) {
     this.phone = phone;
     this.mail = mail;
+    this.hours = hours;
     this.address = address;
     this.map = map;
   }
@@ -20,10 +21,11 @@ export class Contact {
     const phone = this._createBasicElement('Phone', this.phone);
     const email = this._createBasicElement('E-mail', this.mail);
     const address = this._createBasicElement('Address', this.address);
+    const hours = this._createBasicElement('Opening Hours', this.hours);
     const map = this._createMap(this.map);
     address.append(map)
 
-    container.append(heading, phone, email, address);
+    container.append(heading, phone, email, hours, address);
 
     return container;
   }

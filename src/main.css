@@ -148,12 +148,17 @@ h3 {
   'header header'
   'phone map'
   'mail map'
-  'nil map'
+  'hours map'
   ;
 }
 
 .contact-container > h2 {
+  content: '';
   grid-area: header;
+}
+
+.contact-container > h2::after {
+  border: 5px solid black;
 }
 
 .contact-container > :nth-child(2) {
@@ -165,9 +170,12 @@ h3 {
 }
 
 .contact-container > :nth-child(4) {
-  grid-area: map;
+  grid-area: hours;
 }
 
+.contact-container > :nth-child(5) {
+  grid-area: map;
+}
 
 .site-footer {
   font-family: 'ultra', serif;
