@@ -3,7 +3,7 @@ import { Menu } from './menu.js'
 import { Contact } from './contact.js'
 
 // General
-const imgPath = '../src/assets/'
+const imgPath = './assets/'
 
 // Landing ======
 const landingTitle = 'Traditonal Retro Futuristic Dining with a Modern Take'
