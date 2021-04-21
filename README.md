@@ -8,6 +8,7 @@ A single page app for a fictional restaurant using ES6 modules and Webpack
 - [ ] Decide on h2 font
 - [ ] Top & bottom margin on main container
 - [ ] Body copy font
+- [ ] Turn fonts and colors into css vars
 
 ### Header
 
@@ -26,6 +27,7 @@ A single page app for a fictional restaurant using ES6 modules and Webpack
 - [ ] Copy
 - [ ] Copy spacing
 - [ ] Copy container size
+- [ ] Fix image sizing
 
 ### Menu
 
