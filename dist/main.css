@@ -1,6 +1,10 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+  --mainColour: #bd0017;
+  --heading1: 'Ultra', serif;
+  --heading2: 'Bangers', cursive;
+  --bodyCopy: 'Libre Franklin', Arial, sans-serif;
 }
 
 *,
@@ -13,7 +17,7 @@ body {
   margin: 0;
   padding: 0;
   font-size: 3rem;
-  font-family: 'Libre Franklin', Arial, sans-serif;
+  font-family: var(--bodyCopy);
 }
 
 a {
@@ -26,12 +30,12 @@ a:hover {
 }
 
 h2 {
-  font-family: 'Bangers', cursive;
+  font-family: var(--heading2);
   font-size: 6rem;
 }
 
 h3 {
-  font-family: 'Bangers', cursive;
+  font-family: var(--heading2);
 }
 
 #content {
@@ -41,9 +45,9 @@ h3 {
 }
 
 .site-header {
-  font-family: 'Ultra', serif;
+  font-family: var(--heading1);
   padding: 2rem;
-  background-color: #bd0017;
+  background-color: var(--mainColour);
   color: white;
   display: flex;
   justify-content: space-between;
@@ -88,7 +92,7 @@ h3 {
 }
 
 .landing-info {
-  font-family: 'Libre Franklin', sans-serif;
+  font-family: var(--bodyCopy);
   font-size: 2.4rem;
   max-width: 70rem;
 }
@@ -125,7 +129,7 @@ h3 {
 .product h3 {
   margin: 0;
   text-align: center;
-  font-family: 'Bangers';
+  font-family: var(--heading2);
 }
 
 .img-ph {
@@ -178,9 +182,9 @@ h3 {
 }
 
 .site-footer {
-  font-family: 'ultra', serif;
+  font-family: var(--heading1);
   color: white;
   border-top: 1.5rem solid black;
   padding: 2rem;
-  background-color: #bd0017;
+  background-color: var(--mainColour);
 }
