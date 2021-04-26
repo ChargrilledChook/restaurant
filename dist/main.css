@@ -3,8 +3,8 @@ html {
   font-size: 62.5%;
   --mainColour: #bd0017;
   --heading1: "Ultra", serif;
-  --heading2: "Bangers", cursive;
-  --bodyCopy: "Libre Franklin", Arial, sans-serif;
+  --heading2: "Bebas Neue", cursive;
+  --bodyCopy: "Roboto", Arial, sans-serif;
 }
 
 *,
@@ -16,7 +16,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-size: 3rem;
+  font-size: 2rem;
   font-family: var(--bodyCopy);
 }
 
@@ -64,6 +64,7 @@ h3 {
   display: flex;
   align-items: center;
   gap: 3rem;
+  font-size: 3rem;
 }
 
 .site-header > nav img {
@@ -119,8 +120,9 @@ h3 {
 
 .landing-info {
   font-family: var(--bodyCopy);
-  font-size: 2.4rem;
+  font-size: 2rem;
   max-width: 70rem;
+  text-align: justify;
 }
 
 /* Menu ----------------------------- */
@@ -156,6 +158,7 @@ h3 {
   margin: 0;
   text-align: center;
   font-family: var(--heading2);
+  font-size: 3rem;
 }
 
 .img-ph {
@@ -188,6 +191,10 @@ h3 {
 
 .contact-container > h2::after {
   border: 5px solid black;
+}
+
+.contact-container h3 {
+  margin: 0;
 }
 
 /* Using nth child may be slightly hacky but it's much more flexible at this point than creating classes in the JS */

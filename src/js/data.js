@@ -53,7 +53,7 @@ const rawProductData = [
   ["The Double Bypass Burger", "burg3.png"],
   ["Why Did It Cross the Road Burger", "burg4.png"],
   ["Doesn't Infringe on Copyright Burger", "burg5.png"],
-  ["Much Felafel About Nothing Burger", "burg6.png"],
+  ["Much Falafel About Nothing Burger", "burg6.png"],
   ["Looks Familiar Burger", "burg7.png"],
   ["The Eldritch Horror Burger", "burg8.png"],
   ["Three's a Crowd Burger", "burg9.png"],
