@@ -2,9 +2,9 @@ html {
   box-sizing: border-box;
   font-size: 62.5%;
   --mainColour: #bd0017;
-  --heading1: 'Ultra', serif;
-  --heading2: 'Bangers', cursive;
-  --bodyCopy: 'Libre Franklin', Arial, sans-serif;
+  --heading1: "Ultra", serif;
+  --heading2: "Bangers", cursive;
+  --bodyCopy: "Libre Franklin", Arial, sans-serif;
 }
 
 *,
@@ -44,6 +44,7 @@ h3 {
   min-height: 100vh;
 }
 
+/* HEADER -----------------------------------------*/
 .site-header {
   font-family: var(--heading1);
   padding: 2rem;
@@ -65,7 +66,32 @@ h3 {
   gap: 3rem;
 }
 
+.site-header > nav img {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .site-header > :first-child {
+    font-size: 4rem;
+  }
+
+  .site-header nav {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  nav > * {
+    display: none;
+  }
+
+  .site-header nav > img {
+    display: block;
+  }
+}
+/* MAIN CONTAINER -----------------------*/
 .main {
+  margin: 2rem 0 8rem 0;
   background-color: white;
 }
 
@@ -80,7 +106,7 @@ h3 {
   align-items: center;
 }
 
-.landing .img-container{
+.landing .img-container {
   max-width: 60rem;
   /* Temp - find a better solution */
   min-width: 10rem;
@@ -149,15 +175,14 @@ h3 {
   gap: 2rem;
   padding: 4rem;
   grid-template-areas:
-  'header header'
-  'phone map'
-  'mail map'
-  'hours map'
-  ;
+    "header header"
+    "phone map"
+    "mail map"
+    "hours map";
 }
 
 .contact-container > h2 {
-  content: '';
+  content: "";
   grid-area: header;
 }
 
@@ -165,6 +190,7 @@ h3 {
   border: 5px solid black;
 }
 
+/* Using nth child may be slightly hacky but it's much more flexible at this point than creating classes in the JS */
 .contact-container > :nth-child(2) {
   grid-area: phone;
 }
