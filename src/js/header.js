@@ -1,4 +1,4 @@
-export function createHeader() {
+export function createHeader(restaurantTitle) {
   const container = document.createElement("header");
   container.classList.add("site-header");
 
@@ -30,5 +30,3 @@ export function createHeader() {
 
   return container;
 }
-
-const restaurantTitle = "Eat Borger";

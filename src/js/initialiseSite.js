@@ -1,13 +1,9 @@
-import { createHeader } from "./header"
-import { createFooter } from "./footer"
-import { landing } from "./data"
-
+import { createFooter } from "./footer";
+import { landing, header } from "./data";
 
 export function intialiseSite() {
-  const header = createHeader();
-
   const main = createMain();
-  main.append(landing.page)
+  main.append(landing.page);
 
   const footer = createFooter();
 
@@ -16,7 +12,7 @@ export function intialiseSite() {
 }
 
 function createMain() {
-  const main = document.createElement('div');
-  main.className = 'main';
+  const main = document.createElement("div");
+  main.className = "main";
   return main;
-};
+}
