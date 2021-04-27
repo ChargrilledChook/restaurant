@@ -3,7 +3,7 @@ html {
   font-size: 62.5%;
   --mainColour: #bd0017;
   --heading1: "Ultra", serif;
-  --heading2: "Bebas Neue", cursive;
+  --heading2: "Bebas Neue", Arial, sans-serif;
   --bodyCopy: "Roboto", Arial, sans-serif;
 }
 
@@ -100,7 +100,7 @@ h3 {
   width: 100%;
   height: 100%;
 }
-
+/* Landing --------------------------------*/
 .landing {
   display: flex;
   justify-content: space-around;
@@ -118,11 +118,25 @@ h3 {
   height: auto;
 }
 
+.landing h2 {
+  margin: 1.5rem 0;
+}
+
 .landing-info {
   font-family: var(--bodyCopy);
   font-size: 2rem;
-  max-width: 70rem;
+  max-width: 50rem;
   text-align: justify;
+}
+
+.landing-info > div {
+  margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 800px) {
+  .landing {
+    display: block;
+  }
 }
 
 /* Menu ----------------------------- */

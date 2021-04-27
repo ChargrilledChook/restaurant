@@ -9,26 +9,30 @@ export class Landing {
     return this.createLanding();
   }
 
+  // This is bordering on too big and should probably be broken down into separate helper functions
   createLanding() {
-    const container = document.createElement('div');
-    container.classList.add('landing');
+    const container = document.createElement("div");
+    container.classList.add("landing");
 
-    const imageContainer = document.createElement('div')
-    imageContainer.classList.add('img-container');
-    const img = document.createElement('img')
+    const imageContainer = document.createElement("div");
+    imageContainer.classList.add("img-container");
+    const img = document.createElement("img");
     img.src = this.imgPath;
     imageContainer.append(img);
 
-    const info = document.createElement('div');
-    info.classList.add('landing-info')
+    const info = document.createElement("div");
+    info.classList.add("landing-info");
 
-    const heading = document.createElement('h2')
+    const heading = document.createElement("h2");
     heading.textContent = this.title;
 
+    // If this grows any bigger it should be refactored  to something more programmatic but acceptable for now
     info.append(heading);
-    const infoText = document.createElement('div');
-    infoText.textContent = this.copy;
-    info.append(infoText)
+    const copy0 = document.createElement("div");
+    copy0.textContent = this.copy[0];
+    const copy1 = document.createElement("div");
+    copy1.textContent = this.copy[1];
+    info.append(copy0, copy1);
 
     container.append(imageContainer);
     container.append(info);

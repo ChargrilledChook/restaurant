@@ -17,8 +17,10 @@ const header = createHeader(title);
 const landingTitle = "It's burger time!";
 const heroImage = "burgerVec.png";
 const landingImg = imgPath + heroImage;
-const landingCopy =
-  "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.";
+const landingCopy = [
+  "Eat burger is a retro-futuristic, yet modern take on traditional burger based fine dining. Come in and enjoy our hand selected, de-constructed and re-constructed locally havested sumptuous compositions. Our thrice activated twice distilled beef patties will have your mouth watering.",
+  "Call now or order online and begin your ascent to burger nirvana. Any time is a good time to Eat Burger. Kids eat free!",
+];
 const landing = new Landing(landingTitle, landingImg, landingCopy);
 
 // Menu =========
