@@ -171,6 +171,7 @@ h3 {
 }
 
 .product:hover {
+  cursor: pointer;
   transition: 1s;
   transform: scale(1.3);
 }
