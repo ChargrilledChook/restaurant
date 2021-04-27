@@ -1,3 +1,5 @@
+/* Boilerplate and Setup -------------------*/
+
 html {
   box-sizing: border-box;
   font-size: 62.5%;
@@ -20,6 +22,7 @@ body {
   font-family: var(--bodyCopy);
 }
 
+/* General --------------------- */
 a {
   color: inherit;
   text-decoration: none;
@@ -92,14 +95,9 @@ h3 {
     flex-direction: column;
     gap: 1rem;
   }
-
-  /* .site-header nav > img {
-    display: block;
-  } */
 }
 /* MAIN CONTAINER -----------------------*/
 .main {
-  margin: 2rem 0 8rem 0;
   background-color: white;
 }
 
@@ -148,10 +146,9 @@ h3 {
 
 /* Menu ----------------------------- */
 
-/* .menu-container h2::before, .menu-container h2::after {
-  content: ' ----------------- ';
-} */
-
+.menu-container {
+  margin-bottom: 8rem;
+}
 .menu-container h2 {
   text-align: center;
 }
@@ -199,14 +196,11 @@ h3 {
 .contact-container {
   display: grid;
   gap: 2rem;
-  padding: 4rem;
+  padding: 4rem 4rem 0 4rem;
   grid-template-areas:
     "header map"
     "phone map"
     "mail map"
-    "hours map"
-    "hours map"
-    "hours map"
     "hours map";
 }
 
@@ -247,7 +241,7 @@ h3 {
 
 .contact-container iframe {
   width: 100%;
-  height: 100%;
+  max-height: 100%;
 }
 
 @media screen and (max-width: 800px) {
