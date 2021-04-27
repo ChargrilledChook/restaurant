@@ -195,6 +195,9 @@ h3 {
     "header header"
     "phone map"
     "mail map"
+    "hours map"
+    "hours map"
+    "hours map"
     "hours map";
 }
 
@@ -231,6 +234,8 @@ h3 {
 .site-footer {
   font-family: var(--heading1);
   color: white;
+  font-size: 1.5rem;
+  text-align: center;
   border-top: 1.5rem solid black;
   padding: 2rem;
   background-color: var(--mainColour);
