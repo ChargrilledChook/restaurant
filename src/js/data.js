@@ -13,8 +13,9 @@ const header = createHeader(title);
 
 // Footer =======
 const citation =
-  "Created 2021 by Dylan using vanilla Javascript. View my Code on Github.";
-const footer = createFooter(citation);
+  "Created 2021 by Dylan using vanilla Javascript. View my Code on";
+const link = "https://github.com/ChargrilledChook/restaurant";
+const footer = createFooter(citation, link);
 
 // Landing ======
 const landingTitle = "It's burger time!";

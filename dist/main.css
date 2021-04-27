@@ -269,4 +269,8 @@ h3 {
   border-top: 1.5rem solid black;
   padding: 2rem;
   background-color: var(--mainColour);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
