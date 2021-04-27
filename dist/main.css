@@ -103,7 +103,7 @@ h3 {
 
 .main > :first-child {
   width: 100%;
-  height: 100%;
+  /* height: 100%;  This was breaking bottom of menu page on firefox - do this need to be here at all?*/
 }
 /* Landing --------------------------------*/
 .landing {
