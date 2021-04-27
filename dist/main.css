@@ -112,10 +112,14 @@ h3 {
   align-items: center;
 }
 
+.landing > * {
+  padding: 2rem;
+}
+
 .landing .img-container {
   max-width: 60rem;
   /* Temp - find a better solution */
-  min-width: 10rem;
+  min-width: 20rem;
 }
 
 .landing img {
