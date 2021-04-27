@@ -145,7 +145,8 @@ h3 {
 
 @media screen and (max-width: 800px) {
   .landing {
-    display: block;
+    flex-direction: column;
+    justify-content: flex-start;
   }
 }
 
