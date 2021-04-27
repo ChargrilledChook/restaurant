@@ -12,8 +12,7 @@ const title = "Eat Burger";
 const header = createHeader(title);
 
 // Footer =======
-const citation =
-  "Created 2021 by Dylan using vanilla Javascript. View my Code on";
+const citation = "Created 2021 by Dylan. View my Code on";
 const link = "https://github.com/ChargrilledChook/restaurant";
 const footer = createFooter(citation, link);
 
