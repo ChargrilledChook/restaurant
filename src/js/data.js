@@ -71,9 +71,9 @@ const menu = new Menu(rawProductData, imgPath);
 // Contact ======
 
 const phone = " 0267 XXX XXX";
-const mail = "eatBORGER@borgers.com";
+const mail = "eatBurger@borgers.com";
 const hours = "9 - 5 on the 32nd of every month";
-const address = "123 BORGER Way BORGER Town";
+const address = "123 Burger Way Borger Town";
 const map =
   "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d59000.70533535844!2d9.285668941264133!3d56.663472316254534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sborger!5e0!3m2!1sen!2sau!4v1618795242001!5m2!1sen!2sau";
 const contact = new Contact(phone, mail, hours, address, map);
