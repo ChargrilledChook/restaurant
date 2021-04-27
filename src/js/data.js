@@ -27,33 +27,6 @@ const landingCopy = [
 const landing = new Landing(landingTitle, landingImg, landingCopy);
 
 // Menu =========
-const testData = [
-  ["Classy borg", "burger-img.jpg"],
-  ["Sexy burger", "burger2.png"],
-  ["Borg", "burger2.png"],
-  ["Noice", "burger-img.jpg"],
-  ["Yeah yeah yeah", "burger2.png"],
-  ["Sick m888", "burger-img.jpg"],
-  ["Classy borg", "burger-img.jpg"],
-  ["Sexy burger", "burger2.png"],
-  ["Borg", "burger2.png"],
-  ["Noice", "burger-img.jpg"],
-  ["Yeah yeah yeah", "burger2.png"],
-  ["Sick m888", "burger-img.jpg"],
-  ["Classy borg", "burger-img.jpg"],
-  ["Sexy burger", "burger2.png"],
-  ["Borg", "burger2.png"],
-  ["Noice", "burger-img.jpg"],
-  ["Yeah yeah yeah", "burger2.png"],
-  ["Sick m888", "burger-img.jpg"],
-  ["Classy borg", "burger-img.jpg"],
-  ["Sexy burger", "burger2.png"],
-  ["Borg", "burger2.png"],
-  ["Noice", "burger-img.jpg"],
-  ["Yeah yeah yeah", "burger2.png"],
-  ["Sick m888", "burger-img.jpg"],
-];
-
 const rawProductData = [
   ["Don't call it the Shrimp Burger", "burg1.png"],
   ["Feeling Adventurous Burger", "burg2.png"],
