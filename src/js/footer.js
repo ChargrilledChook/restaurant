@@ -1,11 +1,9 @@
-export function createFooter(){
-  const container = document.createElement('footer');
-  container.classList.add('site-footer')
+export function createFooter(citation) {
+  const container = document.createElement("footer");
+  container.classList.add("site-footer");
 
-  const byline = document.createTextNode(author);
+  const byline = document.createTextNode(citation);
   container.append(byline);
 
   return container;
 }
-
-const author = 'By Chook';

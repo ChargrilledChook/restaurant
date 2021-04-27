@@ -1,11 +1,8 @@
-import { createFooter } from "./footer";
-import { landing, header } from "./data";
+import { header, landing, footer } from "./data";
 
 export function intialiseSite() {
   const main = createMain();
   main.append(landing.page);
-
-  const footer = createFooter();
 
   const siteContainer = document.querySelector("#content");
   siteContainer.append(header, main, footer);

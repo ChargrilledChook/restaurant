@@ -2,6 +2,7 @@ import { Landing } from "./landing.js";
 import { Menu } from "./menu.js";
 import { Contact } from "./contact.js";
 import { createHeader } from "./header.js";
+import { createFooter } from "./footer.js";
 
 // General
 const imgPath = "./assets/";
@@ -11,7 +12,9 @@ const title = "Eat Burger";
 const header = createHeader(title);
 
 // Footer =======
-// TODO
+const citation =
+  "Created 2021 by Dylan using vanilla Javascript. View my Code on Github.";
+const footer = createFooter(citation);
 
 // Landing ======
 const landingTitle = "It's burger time!";
@@ -75,4 +78,4 @@ const map =
   "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d59000.70533535844!2d9.285668941264133!3d56.663472316254534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sborger!5e0!3m2!1sen!2sau!4v1618795242001!5m2!1sen!2sau";
 const contact = new Contact(phone, mail, hours, address, map);
 
-export { header, landing, menu, contact };
+export { header, landing, menu, contact, footer };
