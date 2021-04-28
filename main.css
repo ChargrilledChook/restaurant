@@ -1,5 +1,4 @@
 /* Boilerplate and Setup -------------------*/
-
 html {
   box-sizing: border-box;
   font-size: 62.5%;
@@ -47,7 +46,7 @@ h3 {
   min-height: 100vh;
 }
 
-/* HEADER -----------------------------------------*/
+/* Header -----------------------------------------*/
 .site-header {
   font-family: var(--heading1);
   padding: 2rem;
@@ -96,7 +95,8 @@ h3 {
     justify-content: space-around;
   }
 }
-/* MAIN CONTAINER -----------------------*/
+/* Main Container -----------------------*/
+/* Main is an empty div between header and footer where dynamic pages are appended */
 .main {
   background-color: white;
   display: grid;
@@ -148,7 +148,6 @@ h3 {
 }
 
 /* Menu ----------------------------- */
-
 .menu-container {
   margin-bottom: 8rem;
 }
@@ -168,6 +167,7 @@ h3 {
   flex-direction: column;
   align-items: center;
   gap: 2rem;
+  transition: 0.5s;
 }
 
 .product:hover {
@@ -195,7 +195,6 @@ h3 {
 }
 
 /* Contact ----------------- */
-
 /* REFACTOR Grid system I'm currently using is a bit of a hot mess but the output is ok for now. */
 .contact-container {
   display: grid;
@@ -258,7 +257,7 @@ h3 {
   }
 }
 
-/* FOOTER ---------------------------- */
+/* Footer ---------------------------- */
 .site-footer {
   font-family: var(--heading1);
   color: white;
@@ -271,4 +270,10 @@ h3 {
   justify-content: center;
   align-items: center;
   gap: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+  .site-footer {
+    font-size: 1.3rem;
+  }
 }
