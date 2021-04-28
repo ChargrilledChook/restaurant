@@ -1,3 +1,5 @@
+// Contact page component. The map field expects a google map embed link, the rest are strings.
+
 export class Contact {
   constructor(phone, mail, hours, address, map) {
     this.phone = phone;

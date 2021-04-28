@@ -1,3 +1,6 @@
+// Creates a footer component. Should probably refactor to class for parity with other components
+// and to have a single api call for all components (ie page) but it's functioning fine as is for now.
+
 export function createFooter(citation, link) {
   const container = document.createElement("footer");
   container.classList.add("site-footer");

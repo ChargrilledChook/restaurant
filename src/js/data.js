@@ -1,3 +1,7 @@
+// This file imports all the functions and classes required to create our HTML components and instantiates them with
+// data before exporting them. Structuring it this way allows us to change the vast majority of the content / variables,
+// such as changing the landing page copy, the phone number, adding or removing products etc in a single, easy to parse file
+
 import { Landing } from "./landing.js";
 import { Menu } from "./menu.js";
 import { Contact } from "./contact.js";

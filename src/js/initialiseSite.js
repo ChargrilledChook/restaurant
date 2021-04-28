@@ -1,3 +1,7 @@
+// This script simply boostraps the loading of the site, and is intended to be run once.
+// This way the header and footer are only loaded once, and we create the main div where we dynamically
+// load the other pages. The landing page is also loaded here for convenience.
+
 import { header, landing, footer } from "./data";
 
 export function intialiseSite() {

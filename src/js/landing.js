@@ -1,3 +1,7 @@
+// Landing page component. Needs a page heading, file name for the hero imgage and two strings / paragraphs of copy in
+// in an array ie ['copy1', 'copy2']. The copy implementation is a bit stiff and is a good candidate for refactoring but
+// serves it's job fine for now
+
 export class Landing {
   constructor(title, imgPath, copy) {
     this.title = title;
@@ -26,7 +30,8 @@ export class Landing {
     const heading = document.createElement("h2");
     heading.textContent = this.title;
 
-    // If this grows any bigger it should be refactored  to something more programmatic but acceptable for now
+    // If this grows any bigger it should be refactored  to something more programmatic but acceptable for now.
+    // Currently hardcoded this way to present body copy in two paragraphs
     info.append(heading);
     const copy0 = document.createElement("div");
     copy0.textContent = this.copy[0];

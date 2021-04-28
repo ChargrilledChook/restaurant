@@ -1,3 +1,8 @@
+// Creates a header component. This is probably large enough now to either be refactored to a
+// class per other components and / or broken up into some smaller helper functions. This is one place
+// where some things are hardcoded (ie the pages) but it's highly unlikely to change. Could be extracted to
+// be extra thorough, but probably not worth it at this stage.
+
 export function createHeader(restaurantTitle) {
   const container = document.createElement("header");
   container.classList.add("site-header");
