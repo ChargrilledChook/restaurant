@@ -12,7 +12,7 @@ A single page app for a fictional restaurant using ES6 modules and Webpack.
 
 The brief for this project was to create a faux restaurant page entirely with vanilla Javascript - the original HTML markup for this site only contains a single div. All other elements are generated dynamically with Javascript.
 
-Other elements were to split pages up into separate components / ES6 modules, and to compile / transpile the site using webpack to ensure browswer compatibility.
+Other elements were to split pages up into separate components / ES6 modules, and to compile the site using webpack to ensure browswer compatibility for modules.
 
 The site is also fully responsive, but hasn't been tested extensively on very large or very small viewports.
 
