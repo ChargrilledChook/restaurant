@@ -38,7 +38,7 @@ The site is also fully responsive, but hasn't been tested extensively on very la
 - [ ] Convert menu to hamburger menu on small screens
 - [ ] CSS needs refactoring - general clean up, improve naming / selectors, reduce footprint
 - [ ] Header and footer probably need refactoring into classes to have parity with other components
-- [] Some classes have slightly bloated methods and could be cleaned up and broken down into smaller functions
+- [ ] Some classes have slightly bloated methods and could be cleaned up and broken down into smaller functions
 
 ## Issues
 
