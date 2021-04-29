@@ -2,11 +2,11 @@
 // data before exporting them. Structuring it this way allows us to change the vast majority of the content / variables,
 // such as changing the landing page copy, the phone number, adding or removing products etc in a single, easy to parse file
 
-import { Landing } from "./landing.js";
-import { Menu } from "./menu.js";
-import { Contact } from "./contact.js";
-import { createHeader } from "./header.js";
-import { createFooter } from "./footer.js";
+import { Landing } from "./landing";
+import { Menu } from "./menu";
+import { Contact } from "./contact";
+import { createHeader } from "./header";
+import { createFooter } from "./footer";
 
 // General
 const imgPath = "./assets/";
