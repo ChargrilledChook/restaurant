@@ -2,6 +2,7 @@
 // and simply add query selectors and listeners to enable the page switching logic. Initial load
 // is handled by initaliseSite.
 
+import "normalize.css";
 import "./style.scss";
 import "./test.css";
 import { landing, menu, contact } from "./js/data";
