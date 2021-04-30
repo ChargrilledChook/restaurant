@@ -2,16 +2,17 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%;
-  --mainColour:#009dff;
-  --heading1:"Ultra", serif;
-  --heading2:"Bebas Neue", Arial, sans-serif;
-  --bodyCopy:"Roboto", Arial, sans-serif;
+  --mainColour: #c90eb0;
+  --heading1: "Ultra", serif;
+  --heading2: "Bebas Neue", Arial, sans-serif;
+  --bodyCopy: "Roboto", Arial, sans-serif;
 }
 
 * {
   box-sizing: inherit;
 }
-*::before, *::after {
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
@@ -65,6 +66,7 @@ h3 {
   gap: 3rem;
   font-size: 3rem;
 }
+
 .site-header > nav img {
   display: none;
 }
@@ -247,5 +249,3 @@ h3 {
     font-size: 1.3rem;
   }
 }
-
-/*# sourceMappingURL=output.css.map */
