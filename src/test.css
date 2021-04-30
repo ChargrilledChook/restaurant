@@ -1,0 +1,7 @@
+.site-header > nav > :first-child {
+  color: blue;
+}
+
+.site-header {
+  background-color: blueviolet;
+}
