@@ -3,6 +3,7 @@
 // is handled by initaliseSite.
 
 import "normalize.css";
+import "./defaults.css";
 import "./style.scss";
 import "./test.css";
 import { landing, menu, contact } from "./js/data";
