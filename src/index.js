@@ -8,6 +8,9 @@ import "./styles/style.scss";
 import "./styles/test.css";
 import { landing, menu, contact } from "./js/data";
 import { intialiseSite } from "./js/initialiseSite";
+import watching from "./print";
+
+watching();
 
 intialiseSite();
 

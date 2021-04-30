@@ -8,7 +8,9 @@ export function intialiseSite() {
   const main = createMain();
   main.append(landing.page);
 
-  const siteContainer = document.querySelector("#content");
+  const siteContainer = document.createElement("div");
+  siteContainer.id = "content";
+  document.body.append(siteContainer);
   siteContainer.append(header, main, footer);
 }
 
