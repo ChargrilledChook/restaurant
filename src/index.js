@@ -3,9 +3,9 @@
 // is handled by initaliseSite.
 
 import "normalize.css";
-import "./defaults.css";
-import "./style.scss";
-import "./test.css";
+import "./styles/defaults.css";
+import "./styles/style.scss";
+import "./styles/test.css";
 import { landing, menu, contact } from "./js/data";
 import { intialiseSite } from "./js/initialiseSite";
 
